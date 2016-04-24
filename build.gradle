@@ -1,0 +1,53 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+//buildscript {
+//    repositories {
+//        mavenCentral()
+//    }
+//    dependencies {
+//        classpath 'com.android.tools.build:gradle:0.12.+'
+//   }
+//}
+
+
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+//        maven {
+//            url "/Users/stone/my_program/adt-bundle-mac-x86_64-20140624/sdk/extras/android/m2repository/"
+//        }
+        jcenter()
+    }
+    dependencies {
+//        classpath 'com.android.tools.build:gradle:1.0.0'
+//        classpath 'com.android.tools.build:gradle:1.2.3'
+//        classpath 'com.android.tools.build:gradle:2.1.0-alpha5'
+//        classpath 'com.android.tools.build:gradle:2.1.0-beta1'
+//        classpath 'com.android.tools.build:gradle:2.1.0-beta3'
+        classpath 'com.android.tools.build:gradle:2.1.0-rc1'
+
+//        classpath 'com.android.tools.build:gradle:2.0.0-alpha3'
+//        classpath 'com.android.tools.build:gradle:2.0.0-alpha5'
+//        classpath 'com.android.tools.build:gradle:2.0.0-alpha7'
+//        classpath 'com.android.tools.build:gradle:2.0.0-beta5'
+//        classpath 'com.android.tools.build:gradle:2.0.0-beta6'
+//        classpath 'com.android.tools.build:gradle:2.0.0-beta2'
+//        classpath 'com.android.tools.build:gradle:2.0.0-beta4'
+//        classpath 'com.android.databinding:dataBinder:1.0-rc3'
+//        classpath 'com.android.databinding:dataBinder:1.0-rc4'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+//def ANDROID_HOME = "/Users/stone/my_program/adt-bundle-mac-x86_64-20140624/sdk";
+allprojects {
+    repositories {
+//        maven {
+//            url "/Users/stone/my_program/adt-bundle-mac-x86_64-20140624/sdk/extras/android/m2repository/"
+//        }
+        jcenter()
+//        mavenCentral()
+    }
+}
+
